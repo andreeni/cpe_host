@@ -1,5 +1,4 @@
 language: erlang
-otp_release:		
+script: "make && make test"
+otp_release:
   - R15B02
-before_script: "make"
-script: "make test"
